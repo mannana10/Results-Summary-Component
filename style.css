@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
+
+.Desktop {
+    width: 1440px;
+    height: 1080px;
+    flex-grow: 0;
+    padding: 475px 495px 69px 186px;
+    background-color: #ecf2ff;
+  }
+.Rectangle-Copy {
+    width: 368px;
+    height: 512px;
+    flex-grow: 0;
+    margin: 0 391px 24px 0;
+    padding: 38px 54px 46px;
+    border-radius: 32px;
+    background-image: linear-gradient(to bottom, #75f, #6943ff, #2f2ce9);
+  }
+  .Container {
+    width: 736px;
+    height: 512px;
+    flex-grow: 0;
+    z-index: 0;
+    margin: 24px 0 0 23px;
+    padding: 37px 40px 47px 408px;
+    border-radius: 32px;
+    box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+    background-color: #fff;
+}
+
+  .Your-Result {
+    width: 125px;
+    height: 31px;
+    flex-grow: 0;
+    margin: 0 70px 35px 65px;
+    font-family: HankenGrotesk;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #d9d9d9;
+  }
+  .Oval {
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+    border-radius: 50%;
+    margin: 35px 30px 28px;
+    padding: 55px 60px 46px 59px;
+    background-image: linear-gradient(to bottom, #4d21c9, rgba(63, 33, 201, 0.64) 33%, rgba(37, 33, 201, 0) 67%, rgba(37, 33, 201, 0) 67%);
+  }
+  .Score {
+    width: 81px;
+    height: 72px;
+    flex-grow: 0;
+    margin: 0 0 4px;
+    font-family: HankenGrotesk;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+  }
+  .of-100 {
+    width: 52px;
+    height: 23px;
+    flex-grow: 0;
+    margin: 4px 15px 0 14px;
+    opacity: 0.52;
+    font-family: HankenGrotesk;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #cac9ff;
+  }
+
+  .Great {
+    width: 83px;
+    height: 42px;
+    margin: 0 91px 14px 86px;
+    padding: 140px 0px 145px 14px;
+    font-family: HankenGrotesk;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+  
+
+.Donec-nec-justo-eget {
+    width: 260px;
+    height: 69px;
+    margin: 14px 0 0;
+    padding: 54px 0px 54px 46px;
+    font-family: HankenGrotesk;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #cac9ff;
+  }
+
+  summary {
+    width: 104px;
+    height: 31px;
+    flex-grow: 0;
+    margin: 0 184px 28px 0;
+    font-family: HankenGrotesk;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #303b59;
+  }
+#Reaction{
+  width: 284px;
+  height: 56px;
+  padding: 17px 16px 16px 12px;
+  border-radius: 12px;
+  background-color: #fff7f7;
+}
+
+img.iconoirflash {
+  width: 20px;
+  height: 20px;
+  margin: 1px 12px 2px 0;
+  object-fit: contain;
+}
+.Reaction {
+  width: 71px;
+  height: 23px;
+  margin: 0 15px 0 12px;
+  padding: 44px 17px 169px 16px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #f55;
+}
+.score {
+  width: 21px;
+  height: 23px;
+  flex-grow: 0;
+  margin: 0 8px 0 0;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #303b59;
+}
+.whole_score {
+  width: 43px;
+  height: 23px;
+  flex-grow: 0;
+  margin: 0 0 0 8px;
+  opacity: 0.5;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #303b59;
+}
+#Memory{
+    width: 288px;
+    height: 56px;
+    margin: 16px 0 17px;
+    padding: 17px 16px 16px;
+    border-radius: 12px;
+    background-color: #fffcf4;
+} 
+img.iconoirbrain {
+  width: 20px;
+  height: 20px;
+  margin: 2px 12px 1px 0;
+  object-fit: contain;
+}
+.Memory {
+  width: 68px;
+  height: 23px;
+  margin: 0 84px 0 12px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffb21e;
+}
+
+#Verbal {
+  width: 288px;
+  height: 56px;
+  margin: 17px 0 15px;
+  padding: 17px 16px 16px;
+  border-radius: 12px;
+  background-color: #f3fcfa;
+}
+img.iconoirchat-remove {
+  width: 20px;
+  height: 20px;
+  margin: 1px 12px 2px 0;
+  object-fit: contain;
+}
+.Verbal {
+  width: 53px;
+  height: 23px;
+  margin: 0 99px 0 12px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #00bb8f;
+}
+#Visual{
+  width: 288px;
+  height: 56px;
+  margin: 15px 0 0;
+  padding: 17px 16px 16px;
+  border-radius: 12px;
+  background-color: #f4f5fd;
+}
+img.iconoireye-empty {
+  width: 20px;
+  height: 20px;
+  margin: 2px 12px 1px 0;
+  object-fit: contain;
+}
+.Visual {
+  width: 50px;
+  height: 23px;
+  margin: 0 102px 0 12px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #1125d6;
+}
+#Continue{
+  width: 288px;
+  height: 56px;
+  margin: 41px 0 0;
+  padding: 17px 107px 16px 106px;
+  border-radius: 128px;
+  background-color: #303b59;
+}
+.Continue {
+  width: 75px;
+  height: 23px;
+  font-family: HankenGrotesk;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+}
+
+
